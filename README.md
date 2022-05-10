@@ -1,6 +1,6 @@
 # WinUI3_CustomCaption
 
-Test custom Caption in WinUI 3 on Windows 10 21H1 (with a Manifest)
+Test custom Caption in WinUI 3 on Windows 10 21H1 (Unpackaged app with a Manifest)
 by copying and updating styles from generic.xaml :
  
  >  <Style x:Key="WindowCaptionButton" TargetType="Button">
