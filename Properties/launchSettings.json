@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "WinUI3_CustomCaption (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "WinUI3_CustomCaption (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
