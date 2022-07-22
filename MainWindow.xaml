@@ -48,7 +48,7 @@
         </Button>
         <Slider x:Name="sliderSpeed" Header ="Scrolling Speed" Visibility="Collapsed" Width="200" Orientation="Horizontal" HorizontalAlignment="Left" Margin="10, 10, 0, 0"
                     TickFrequency="0.1" TickPlacement="Inline" Maximum="10" Minimum="0" StepFrequency="0.1"
-                     Value="{x:Bind SetSpeed(ScrollSpeed), BindBack=GetSpeed, Mode=TwoWay}" />
+                     Value="{x:Bind GetSpeed(), BindBack=SetSpeed, Mode=TwoWay}" />
 
     </StackPanel>
 </Window>
