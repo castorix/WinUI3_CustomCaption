@@ -63,8 +63,8 @@ namespace WinUI3_CustomCaption
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(ScrollSpeed)));
             }
         }
-        public double SetSpeed(float? x) => _ScrollSpeed;
-        public float? GetSpeed(double x) => ScrollSpeed = (float)x;
+        public double GetSpeed() => _ScrollSpeed;
+        public void SetSpeed(double x) => ScrollSpeed = (float)x;
 
         private void CompositionTarget_Rendering(object sender, object e)
         {
